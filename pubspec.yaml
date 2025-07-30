@@ -1,0 +1,66 @@
+name: bookstore
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.2.1 
+  shared_preferences: ^2.1.0
+  flutter_spinkit: ^5.1.0
+  http: ^1.1.0
+  firebase_core: ^3.14.0
+  google_sign_in: ^6.1.5
+  fluttertoast: ^8.2.2
+  lottie: ^3.3.1 
+  firebase_auth: ^5.6.0
+  cloud_firestore: ^5.6.9
+  firebase_storage: ^12.4.7
+  provider: ^6.1.5
+  logger: ^2.5.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  
+flutter:
+  uses-material-design: true
+  assets: 
+    - assets\background.jpg
+    - assets\profile.png
+    - assets\google.png 
+    - assets\bookLoading.gif
+    - assets\books\book1.jpg
+    - assets\books\book2.jpeg
+    - assets\books\book3.jpg
+    - assets\books\book4.jpg 
+    - assets\books\book5.jpg
+    - assets\books\book6.jpg
+    - assets\books\book7.jpg
+    - assets\books\book8.jpg
+    - assets\books\book9.jpg
+    - assets\books\book10.jpg 
+    - assets\books\book11.jpg 
+    - assets\authors\author1.jpg
+    - assets\authors\author2.jpg
+    - assets\authors\author3.jpg
+    - assets\authors\author4.jpg
+    - assets\authors\author5.jpg
+    - assets\authors\author6.jpg
+    - assets\authors\author7.jpeg
+    - assets\authors\author8.png 
+    - assets\authors\author9.jpg 
+    - assets\card\american.png
+    - assets\card\master.jpg
+    - assets\card\discover.jpg
+    - assets\card\visa.jpg
+    - assets\card\gpay.png 
+    - assets\card\domestic.jpg 
